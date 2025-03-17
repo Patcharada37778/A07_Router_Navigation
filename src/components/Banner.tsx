@@ -6,7 +6,7 @@ import styles from './banner.module.css'
 import { useRouter } from 'next/navigation';
 
 export default function Banner () {
-  const covers = ['/images/cover.jpg', '/images/cover2.webp', '/images/cover3.jpg', '/images/cover4.jpg']
+  const covers = ['/images/cover.jpg', '/images/cover2.jpg', '/images/cover3.jpg', '/images/cover4.jpg']
   const [index, setIndex] = useState(0)
   const router = useRouter();
 
